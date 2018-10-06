@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.BClose = new System.Windows.Forms.Button();
             this.BAbout = new System.Windows.Forms.Button();
             this.TBTo = new System.Windows.Forms.TextBox();
@@ -129,7 +130,6 @@
             this.TBMessage.Name = "TBMessage";
             this.TBMessage.Size = new System.Drawing.Size(240, 120);
             this.TBMessage.TabIndex = 7;
-            this.TBMessage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // BSend
             // 
@@ -190,6 +190,7 @@
             this.Controls.Add(this.BClose);
             this.Font = new System.Drawing.Font("Comic Sans MS", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Opacity = 0.97D;

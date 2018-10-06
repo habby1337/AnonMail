@@ -36,4 +36,4 @@ using System.Runtime.InteropServices;
 
 
 //CAMBIARE PER GLI AGGIORNAMENTI
-[assembly: AssemblyFileVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
