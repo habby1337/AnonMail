@@ -33,9 +33,6 @@
             this.BCheckupdate = new System.Windows.Forms.Button();
             this.LVersion = new System.Windows.Forms.Label();
             this.LPowered = new System.Windows.Forms.Label();
-            this.TBTo = new System.Windows.Forms.TextBox();
-            this.LTo = new System.Windows.Forms.Label();
-            this.BActivate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BClose
@@ -56,9 +53,9 @@
             this.BCheckupdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BCheckupdate.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BCheckupdate.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.BCheckupdate.Location = new System.Drawing.Point(234, 295);
+            this.BCheckupdate.Location = new System.Drawing.Point(99, 205);
             this.BCheckupdate.Name = "BCheckupdate";
-            this.BCheckupdate.Size = new System.Drawing.Size(99, 30);
+            this.BCheckupdate.Size = new System.Drawing.Size(148, 30);
             this.BCheckupdate.TabIndex = 2;
             this.BCheckupdate.Text = "Check Update";
             this.BCheckupdate.UseVisualStyleBackColor = true;
@@ -67,7 +64,7 @@
             // LVersion
             // 
             this.LVersion.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.LVersion.Location = new System.Drawing.Point(12, 295);
+            this.LVersion.Location = new System.Drawing.Point(105, 172);
             this.LVersion.Name = "LVersion";
             this.LVersion.Size = new System.Drawing.Size(142, 30);
             this.LVersion.TabIndex = 3;
@@ -83,39 +80,6 @@
             this.LPowered.TabIndex = 4;
             this.LPowered.Text = "Powered by:\r\nanonymouse.org\r\n\r\nCoded by:\r\nHabby";
             // 
-            // TBTo
-            // 
-            this.TBTo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.TBTo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TBTo.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.TBTo.Location = new System.Drawing.Point(77, 158);
-            this.TBTo.Name = "TBTo";
-            this.TBTo.Size = new System.Drawing.Size(238, 16);
-            this.TBTo.TabIndex = 5;
-            this.TBTo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // LTo
-            // 
-            this.LTo.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.LTo.Location = new System.Drawing.Point(12, 158);
-            this.LTo.Name = "LTo";
-            this.LTo.Size = new System.Drawing.Size(46, 16);
-            this.LTo.TabIndex = 6;
-            this.LTo.Text = "Key:";
-            this.LTo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BActivate
-            // 
-            this.BActivate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BActivate.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BActivate.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.BActivate.Location = new System.Drawing.Point(77, 180);
-            this.BActivate.Name = "BActivate";
-            this.BActivate.Size = new System.Drawing.Size(238, 29);
-            this.BActivate.TabIndex = 7;
-            this.BActivate.Text = "Activate";
-            this.BActivate.UseVisualStyleBackColor = true;
-            // 
             // OptionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -123,9 +87,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(359, 337);
-            this.Controls.Add(this.BActivate);
-            this.Controls.Add(this.LTo);
-            this.Controls.Add(this.TBTo);
             this.Controls.Add(this.LPowered);
             this.Controls.Add(this.LVersion);
             this.Controls.Add(this.BCheckupdate);
@@ -140,7 +101,6 @@
             this.Text = "OptionsForm";
             this.Load += new System.EventHandler(this.OptionsForm_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -150,8 +110,5 @@
         private System.Windows.Forms.Button BCheckupdate;
         private System.Windows.Forms.Label LVersion;
         private System.Windows.Forms.Label LPowered;
-        private System.Windows.Forms.TextBox TBTo;
-        private System.Windows.Forms.Label LTo;
-        private System.Windows.Forms.Button BActivate;
     }
 }
